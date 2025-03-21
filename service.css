@@ -1,0 +1,89 @@
+body{
+    background-image: url("images/e5.jpg");
+    background-size: cover;
+
+}
+.service .point3 .moreinfo a{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.4s ease;
+    color: white;
+}
+.service .point3 .moreinfo a:hover {
+    transition: 0.4s ease;
+    color: red;
+   
+}
+.point1 li{
+    font-size: 20px;
+    font-weight: bold;
+}
+.point2 li{
+    font-size: 20px;
+    font-weight: bold;
+}
+.point3 li{
+    font-size: 20px;
+    font-weight: bold;
+}
+.manu ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.manu ul li{
+    list-style: none;
+}
+.navbar {
+    width: 1200px;
+    height: 80px;
+    margin: auto;
+
+}
+.manu {
+    width: 400px;
+    float: left;
+    height: 70px;
+
+}
+
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-size: 2rem;
+    font-weight: bold;
+    transition: .4s ease-in-out;
+    margin-left: -25px;
+
+}
+
+ul li a:hover {
+    color: red;
+
+}
+.point1 h1{
+    
+    height: auto;
+    margin: auto;
+    color: rgb(251, 39, 2);
+    position: relative;
+}
+.point2 h1{
+    color: rgb(251, 39, 2);
+}
+.point3 h1{
+    color: rgb(251, 39, 2);
+}
+#moreinfo{
+    transition: 1s ease;
+    color: white;
+    cursor: pointer;
+}
+#moreinfo a:hover{
+    background-color: white;
+}

@@ -1,0 +1,63 @@
+
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    background-image: url('images/e7.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 2vh;
+    font-size: 2rem;
+}
+.menu ul {
+    margin-left: 0px;
+}
+nav{
+    width: 100%;
+    height: 15vh;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    word-spacing: 25%;
+    font-weight: bold;
+}
+nav a{
+    transition: 0.4s ease;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+nav a:hover{
+    transition: 0.4s ease;
+    color: blueviolet;
+}
+.products h1{
+    text-align: center;
+}
+
+.change::after{
+    content: '';
+    animation: changetext 20s infinite linear;
+    color: blueviolet;
+
+}
+
+@keyframes changetext {
+    0%{content: "WASHING MACHINE";}
+    10%{content: "AC";}
+    20%{content: "RAFRIGERATOR";}
+    30%{content: "AATA MAKER";}
+    40%{content: "CEILING FAN";}
+    50%{content: "TABLE FAN";}
+    60%{content: "ELECTRIC IRON";}
+    70%{content: "SANDVICH MACHINE";}
+    80%{content: "WATER HEATER";}
+    90%{content: "WATER GEYSER";}
+    100%{content: "RO FILTERS AND MORE....";}
+}

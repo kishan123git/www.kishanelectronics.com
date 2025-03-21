@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top);
+    background-position: absolute;
+    background-size: auto;
+    
+    
+    height: 109vh;
+
+}
+body{
+    background-image: url("images/e2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.form input{
+    color: white;
+}
+.navbar{
+    width: 1200px;
+    height: 80px;
+    margin: auto;
+
+}
+.icon{
+    width: 500px;
+    float: left;
+    height: 70px;
+
+}
+.logo{
+    color: orange;
+    font-size: 40px;
+    font-family: Arial;
+    
+    width: 452px;
+    padding-top: 10px;
+    padding-right: 0px;
+    margin-left: -148px;
+}
+.manu{
+    width: 400px;
+    float: left;
+    height: 70px;
+
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ul li{
+    list-style: none;
+    margin-left: -38px;
+    margin-top: 27px;
+    
+
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-size: 2rem;
+    font-weight: bold;
+    transition: .4s ease-in-out;
+    margin-left: 108px;
+
+}
+
+ul li a:hover{
+    color: orange;
+}
+.srch{
+    margin-left: 35px;
+    font-family: 'Times New Roman';
+    width: 154px;
+    height: 40px;
+    background: transparent;
+    margin-top: 15px;
+    border: 1px solid orange;
+    color: white;
+    font-size: 20px;
+    border-right: none;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+
+}
+.serch{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    margin-top: 15px;
+    border: 2px solid orange;
+    color: white;
+    font-size: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.btn{
+    transition: 0.4s ease;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+.link .siup{
+    transition: 0.4s ease;
+}
+.link .siup:hover{
+    color: rgb(247, 6, 215);
+}
+span{
+    color: #f26a06;
+    font-size: 60px;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 9rem;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    color: #f26a06;
+}
+
+.content p{
+    color: white;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+.post{
+    color: #f26a06;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background-color: orange;
+    
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: 0.4s ease;
+
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease;
+
+}
+.cn:hover{
+    background: white;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orange;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+
+}
+#emai,#pass{
+    font-size: 16px;
+    color: white;
+
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid orange;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+}
+.form input:focus{
+    outline: none;
+
+}
+::placeholder{
+    color: white;
+    font-family: Arial;
+
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background-color: orange;
+    border: none;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease;
+    
+
+}
+.btnn:hover{
+    background: white;
+    color: orange;
+
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: orange;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icon a{
+    text-decoration: none;
+    color: white;
+    
+}
+.icon ion-icon{
+    color: white;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.4s ease;
+
+}
+.icon ion-icon:hover{
+    color: orange;
+}
+.icon{
+    display: flex;
+    align-items: center;
+}
+
+.kishanelectronics-logo{
+    background-image: url('images/logo1.png');
+    background-size: cover;
+    height: 51px;
+  width: 68px;
+  padding: 1px;
+  margin-left: -160px;
+}

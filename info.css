@@ -1,0 +1,84 @@
+
+
+body{
+    background-image: url("images/e.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 160vh;
+    
+}
+
+#sharad{
+    margin-left: -15vh;
+}
+
+#style{
+    margin-left: 0px;
+    margin-top: 550px;
+}
+
+div .chetanpatel img{
+    width: 30vh;
+}
+div .sharadpatel img{
+    width: 30vh;
+}
+#sharad{
+    margin-top: 20vh;
+}
+.manu ul{
+    text-align: center;
+    margin-left: -200px;
+    margin-top: 3vh;
+}
+.manu ul li{
+    list-style: none;
+    margin-left: -1vh;
+}
+.manu ul li a{
+    font-size: 2rem;
+    margin-left: 50px;
+}
+.navbar {
+    width: 1200px;
+    height: 80px;
+    margin: auto;
+
+}
+.manu {
+    width: 400px;
+    float: left;
+    height: 70px;
+
+}
+
+.manu ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -20px;
+    margin-left: -109px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    transition: .4s ease-in-out;
+    
+    text-align: center;
+}
+
+ul li a:hover {
+    color: rgb(251, 39, 2);
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}

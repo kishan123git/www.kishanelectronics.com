@@ -1,0 +1,77 @@
+body{
+    background-image: url("images/e4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+.service .point3 .moreinfo a{
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.moreinfo a:hover{
+    transition: 0.4s ease;
+    font-weight: bold;
+   
+}
+.point1 li{
+    font-size: 20px;
+    font-weight: bold;
+}
+.point2 li{
+    font-size: 20px;
+    font-weight: bold;
+}
+.point3 li{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.point4 li{
+    font-size: 20px;
+    
+}
+.manu ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.manu ul li{
+    list-style: none;
+}
+.navbar {
+    width: 1200px;
+    height: 80px;
+    margin: auto;
+
+}
+.manu {
+    width: 400px;
+    float: left;
+    height: 70px;
+
+}
+
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    transition: .4s ease-in-out;
+    margin-left: -25px;
+
+}
+
+ul li a:hover {
+    color: black;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
